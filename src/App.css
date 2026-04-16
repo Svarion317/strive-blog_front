@@ -1,0 +1,39 @@
+.app-shell {
+  background-color: #f8f9fa;
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.py-md-6 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.post-cover-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.comment-box {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 0.65rem 0.75rem;
+}
+
+.auth-panel-wrapper {
+  max-width: 100%;
+}
+
+.auth-actions .btn {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .auth-actions .btn {
+    width: auto;
+  }
+}
